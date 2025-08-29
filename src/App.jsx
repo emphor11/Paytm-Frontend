@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useNavigate, Link } f
 import { User, Send, Wallet, History, LogOut, Eye, EyeOff, Home, CreditCard } from 'lucide-react';
 
 // API Service
-const API_BASE = 'http://localhost:3000/api/v1';
+const API_BASE = 'https://paytm-backend-hkso.onrender.com/';
 
 const apiService = {
   signup: async (userData) => {
